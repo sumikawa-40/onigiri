@@ -6,6 +6,9 @@
 食事の楽しみや満足感を提供する
 おにぎりSNS投稿型サービスです。
 
+## ■ 画面変移図
+https://www.figma.com/file/bGbiA5KKY8K907jrMC99MI/%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A?type=design&node-id=0%3A1&t=yvR4KDtsxakYs33F-1
+
 ## ■ メインのターゲットユーザー
 - おにぎりが好きな人
 - 自炊して食費を節約している人
