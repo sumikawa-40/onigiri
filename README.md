@@ -66,6 +66,8 @@ https://www.figma.com/file/bGbiA5KKY8K907jrMC99MI/%E3%81%8A%E3%81%AB%E3%81%8E%E3
 どちらも楽しむにはサイトをいくつも見比べないとできないのはめんどくさいと思うことはありませんか。
 おにぎりの記録と投稿を通じて食事時間をより有意義にする助けになればいいなと思い、このサービスを考えました。
 
+## ■ ER図
+[![Image from Gyazo](https://i.gyazo.com/1aab477ba571a4ba4308e4729bc3ea1d.png)](https://gyazo.com/1aab477ba571a4ba4308e4729bc3ea1d)
 
 ## ■ スケジュール
 - 企画〜技術調査: 6/10〆切
