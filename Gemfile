@@ -51,6 +51,10 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  
+  # Debugger
+  gem "better_errors"
+  gem "binding_of_caller"
 
   # Test
   gem "factory_bot_rails"
