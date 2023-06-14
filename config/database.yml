@@ -80,4 +80,7 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  url: <%= ENV['DATABASE_URL'] %>
+  <<: *default
+  database: onigiri_production
+  username: onigiri
+  password: <%= ENV["ONIGIRI_DATABASE_PASSWORD"] %>
