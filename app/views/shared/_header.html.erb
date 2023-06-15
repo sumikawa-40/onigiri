@@ -1,0 +1,20 @@
+<header>
+  <nav class="navbar navbar-light" style="background-color: #98d3e7;">
+    <%= link_to "おにぎりミッケ", root_path, class: "navbar-brand" %>
+
+    <button class='navbar-toggler' type="button" data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto main-nav align-items-center">
+        <li class="nav-item">
+            <%= link_to "ログアウト", "#", class:'dropdown-item', method: :delete %>
+            <%= link_to 'プロフィール', "#" ,class: 'nav-link' %>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
