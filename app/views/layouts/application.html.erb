@@ -13,8 +13,11 @@
   </head>
 
   <body>
+    <% if logged_in? %>
     <%= render 'shared/before_login_header' %>
+    <% else %>
     <%= render 'shared/header' %>
+    <% end %>
     <%= yield %>
     <%= render 'shared/footer' %>
   </body>
