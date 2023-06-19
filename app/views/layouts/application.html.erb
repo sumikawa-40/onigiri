@@ -14,9 +14,9 @@
 
   <body>
     <% if logged_in? %>
-    <%= render 'shared/before_login_header' %>
+      <%= render 'shared/header' %>
     <% else %>
-    <%= render 'shared/header' %>
+      <%= render 'shared/before_login_header' %>
     <% end %>
     <%= yield %>
     <%= render 'shared/footer' %>
