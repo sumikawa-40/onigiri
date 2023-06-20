@@ -55,6 +55,8 @@ gem 'sassc-rails'
 # Authentication
 gem 'sorcery'
 
+# Japanese Translation
+gem 'rails-i18n'
 
 # Table/Schema
 gem 'annotate'
