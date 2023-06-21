@@ -21,3 +21,6 @@ ja:
       fail: 'ログインに失敗しました'
     destroy:
       success: 'ログアウトしました'
+  posts:
+    index:
+      no_result: '投稿がありません'
