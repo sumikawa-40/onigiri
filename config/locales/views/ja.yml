@@ -4,8 +4,11 @@ ja:
     sign_up: '新規登録'
     register: '登録'
     logout: 'ログアウト'
+    post: '投稿'
     message:
       require_login: 'ログインしてください'
+      created: "%{item}を作成しました"
+      not_created: "%{item}を作成できませんでした"
   users:
     new:
       title: 'ユーザー登録'
@@ -25,4 +28,7 @@ ja:
       success: 'ログアウトしました'
   posts:
     index:
+      title: '投稿一覧'
       no_result: '投稿がありません'
+    new:
+      title: "投稿作成"
